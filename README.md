@@ -9,6 +9,8 @@ Ejemplos del uso de nuestro API:
 
 
 
+### <u>Inventario</u>
+
 
 | Parámetro          | Descripción                                                  |
 | ------------------ | ------------------------------------------------------------ |
@@ -84,7 +86,7 @@ GET udem-autos-api.herokuapp.com/inventario
 <summary>Ejemplo: Ver Inventario Por Marcas</summary>
 
 ```http
-GET udem-autos-api.herokuapp.com/inventario?marca=Chevrolet
+GET udem-autos-api.herokuapp.com/inventario/?marca=Chevrolet
 ```
 
 ```json
@@ -129,12 +131,34 @@ GET udem-autos-api.herokuapp.com/inventario?marca=Chevrolet
 </details>
 
 
-
-<u>Realizar una reserva:</u>
+<details>
+<summary>Ejemplo: Ver Inventario Por Fechas</summary>
 
 ```http
-GET udem-autos-api.herokuapp.com/reserva
+GET udem-autos-api.herokuapp.com/inventario/?desde=2021-11-20&hasta=2021-11-22
 ```
+
+```
+{
+  "inventario": [
+    {
+      "color": "Blanco",
+      "foto": "https://media.mattel.com/root/HWCarsCatalog/Web/MainImage/DTX49_c_17_003.png",
+      "id": 6,
+      "modelo": "Sedan",
+      "nombre": "Mercedes-Benz",
+      "precio": 2000
+    }
+  ]
+}
+```
+
+</details>
+
+
+
+### <u>Reserva</u>
+
 
 | Parámetro          | Descripción                                                  |
 | ------------------ | ------------------------------------------------------------ |
@@ -145,6 +169,20 @@ GET udem-autos-api.herokuapp.com/reserva
 | hasta *(opcional)* | La fecha hasta la cual se va a reservar.                     |
 | cuenta             | La cuenta de banco del usuario que va a realizar la transacción. |
 | pin                | La contraseña de la cuenta de banco que se va a usar.        |
+
+<details>
+<summary>Ejemplo: Realizar una Reserva</summary>
+
+```http
+GET udem-autos-api.herokuapp.com/reserva
+```
+
+```
+{lol}
+```
+
+</details>
+
 
 
 
