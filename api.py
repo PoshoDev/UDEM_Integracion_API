@@ -41,8 +41,7 @@ def token_required(f):
 @app.route("/", methods=["GET"])
 def home():
     data = {
-        "Page":"Home",
-        "Message":"Estas en la pagina principal! Lee nuestra documentacion para saber como generar un request. :)"
+        "Message":"¡Estás en la página principal! Lee nuestra documentación para saber como generar un request. :)"
         }
     return json.dumps(data)
 
