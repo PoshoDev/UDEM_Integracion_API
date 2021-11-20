@@ -41,7 +41,8 @@ def token_required(f):
 @app.route("/", methods=["GET"])
 def home():
     data = {
-        "Message":"¡Estás en la página principal! Lee nuestra documentación para saber como generar un request. :)"
+        "message":"¡Estás en la página principal! Lee nuestra documentación para saber como generar un request. :)",
+		"docs":"https://github.com/PoshoDev/UDEM_Integracion_API/blob/main/README.md"
         }
     return json.dumps(data)
 
