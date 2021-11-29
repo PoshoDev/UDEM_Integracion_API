@@ -26,58 +26,56 @@ GET udem-autos-api.herokuapp.com/inventario
 ```
 
 ```json
-{
-  "inventario": [
-    {
-      "color": "Rayo McQueen",
-      "foto": "https://i.pinimg.com/originals/7d/43/8c/7d438c6693b7844806db4ed3e8cab54f.jpg",
-      "id": 2,
-      "modelo": "Corvette",
-      "nombre": "Chevrolet",
-      "precio": 6969
-    },
-    {
-      "color": "Rayo McQueen",
-      "foto": "https://i.pinimg.com/originals/7d/43/8c/7d438c6693b7844806db4ed3e8cab54f.jpg",
-      "id": 4,
-      "modelo": "Corvette",
-      "nombre": "Chevrolet",
-      "precio": 6969
-    },
-    {
-      "color": "Rayo McQueen",
-      "foto": "https://i.pinimg.com/originals/7d/43/8c/7d438c6693b7844806db4ed3e8cab54f.jpg",
-      "id": 5,
-      "modelo": "Corvette",
-      "nombre": "Chevrolet",
-      "precio": 6969
-    },
-    {
-      "color": "Bumblebee",
-      "foto": "https://image.winudf.com/v2/image/Y29tLk92ZXJ3YXRjaGRldi5NRUNITU9EX3NjcmVlbnNob3RzXzBfMTYyMGRmYzA/screen-0.jpg?fakeurl=1&type=.jpg",
-      "id": 1,
-      "modelo": "Camaro",
-      "nombre": "Chevrolet",
-      "precio": 420
-    },
-    {
-      "color": "Blanco",
-      "foto": "https://media.mattel.com/root/HWCarsCatalog/Web/MainImage/DTX49_c_17_003.png",
-      "id": 3,
-      "modelo": "Sedan",
-      "nombre": "Mercedes-Benz",
-      "precio": 2000
-    },
-    {
-      "color": "Blanco",
-      "foto": "https://media.mattel.com/root/HWCarsCatalog/Web/MainImage/DTX49_c_17_003.png",
-      "id": 6,
-      "modelo": "Sedan",
-      "nombre": "Mercedes-Benz",
-      "precio": 2000
-    }
-  ]
-}
+[
+  {
+    "color": "Rayo McQueen",
+    "foto": "https://i.pinimg.com/originals/7d/43/8c/7d438c6693b7844806db4ed3e8cab54f.jpg",
+    "id": 2,
+    "marca": "Chevrolet",
+    "modelo": "Corvette",
+    "precio": 6969
+  },
+  {
+    "color": "Rayo McQueen",
+    "foto": "https://i.pinimg.com/originals/7d/43/8c/7d438c6693b7844806db4ed3e8cab54f.jpg",
+    "id": 4,
+    "marca": "Chevrolet",
+    "modelo": "Corvette",
+    "precio": 6969
+  },
+  {
+    "color": "Rayo McQueen",
+    "foto": "https://i.pinimg.com/originals/7d/43/8c/7d438c6693b7844806db4ed3e8cab54f.jpg",
+    "id": 5,
+    "marca": "Chevrolet",
+    "modelo": "Corvette",
+    "precio": 6969
+  },
+  {
+    "color": "Bumblebee",
+    "foto": "https://image.winudf.com/v2/image/Y29tLk92ZXJ3YXRjaGRldi5NRUNITU9EX3NjcmVlbnNob3RzXzBfMTYyMGRmYzA/screen-0.jpg?fakeurl=1&type=.jpg",
+    "id": 1,
+    "marca": "Chevrolet",
+    "modelo": "Camaro",
+    "precio": 420
+  },
+  {
+    "color": "Blanco",
+    "foto": "https://media.mattel.com/root/HWCarsCatalog/Web/MainImage/DTX49_c_17_003.png",
+    "id": 3,
+    "marca": "Mercedes-Benz",
+    "modelo": "Sedan",
+    "precio": 2000
+  },
+  {
+    "color": "Blanco",
+    "foto": "https://media.mattel.com/root/HWCarsCatalog/Web/MainImage/DTX49_c_17_003.png",
+    "id": 6,
+    "marca": "Mercedes-Benz",
+    "modelo": "Sedan",
+    "precio": 2000
+  }
+]
 ```
 </details>
 
@@ -90,42 +88,40 @@ GET udem-autos-api.herokuapp.com/inventario/?marca=Chevrolet
 ```
 
 ```json
-{
-  "inventario": [
-    {
-      "color": "Rayo McQueen",
-      "foto": "https://i.pinimg.com/originals/7d/43/8c/7d438c6693b7844806db4ed3e8cab54f.jpg",
-      "id": 2,
-      "modelo": "Corvette",
-      "nombre": "Chevrolet",
-      "precio": 6969
-    },
-    {
-      "color": "Rayo McQueen",
-      "foto": "https://i.pinimg.com/originals/7d/43/8c/7d438c6693b7844806db4ed3e8cab54f.jpg",
-      "id": 4,
-      "modelo": "Corvette",
-      "nombre": "Chevrolet",
-      "precio": 6969
-    },
-    {
-      "color": "Rayo McQueen",
-      "foto": "https://i.pinimg.com/originals/7d/43/8c/7d438c6693b7844806db4ed3e8cab54f.jpg",
-      "id": 5,
-      "modelo": "Corvette",
-      "nombre": "Chevrolet",
-      "precio": 6969
-    },
-    {
-      "color": "Bumblebee",
-      "foto": "https://image.winudf.com/v2/image/Y29tLk92ZXJ3YXRjaGRldi5NRUNITU9EX3NjcmVlbnNob3RzXzBfMTYyMGRmYzA/screen-0.jpg?fakeurl=1&type=.jpg",
-      "id": 1,
-      "modelo": "Camaro",
-      "nombre": "Chevrolet",
-      "precio": 420
-    }
-  ]
-}
+[
+  {
+    "color": "Rayo McQueen",
+    "foto": "https://i.pinimg.com/originals/7d/43/8c/7d438c6693b7844806db4ed3e8cab54f.jpg",
+    "id": 2,
+    "marca": "Chevrolet",
+    "modelo": "Corvette",
+    "precio": 6969
+  },
+  {
+    "color": "Rayo McQueen",
+    "foto": "https://i.pinimg.com/originals/7d/43/8c/7d438c6693b7844806db4ed3e8cab54f.jpg",
+    "id": 4,
+    "marca": "Chevrolet",
+    "modelo": "Corvette",
+    "precio": 6969
+  },
+  {
+    "color": "Rayo McQueen",
+    "foto": "https://i.pinimg.com/originals/7d/43/8c/7d438c6693b7844806db4ed3e8cab54f.jpg",
+    "id": 5,
+    "marca": "Chevrolet",
+    "modelo": "Corvette",
+    "precio": 6969
+  },
+  {
+    "color": "Bumblebee",
+    "foto": "https://image.winudf.com/v2/image/Y29tLk92ZXJ3YXRjaGRldi5NRUNITU9EX3NjcmVlbnNob3RzXzBfMTYyMGRmYzA/screen-0.jpg?fakeurl=1&type=.jpg",
+    "id": 1,
+    "marca": "Chevrolet",
+    "modelo": "Camaro",
+    "precio": 420
+  }
+]
 ```
 
 </details>
@@ -139,18 +135,32 @@ GET udem-autos-api.herokuapp.com/inventario/?desde=2021-11-20&hasta=2021-11-22
 ```
 
 ```
-{
-  "inventario": [
-    {
-      "color": "Blanco",
-      "foto": "https://media.mattel.com/root/HWCarsCatalog/Web/MainImage/DTX49_c_17_003.png",
-      "id": 6,
-      "modelo": "Sedan",
-      "nombre": "Mercedes-Benz",
-      "precio": 2000
-    }
-  ]
-}
+[
+  {
+    "color": "Bumblebee",
+    "foto": "https://image.winudf.com/v2/image/Y29tLk92ZXJ3YXRjaGRldi5NRUNITU9EX3NjcmVlbnNob3RzXzBfMTYyMGRmYzA/screen-0.jpg?fakeurl=1&type=.jpg",
+    "id": 1,
+    "marca": "Chevrolet",
+    "modelo": "Camaro",
+    "precio": 420
+  },
+  {
+    "color": "Blanco",
+    "foto": "https://media.mattel.com/root/HWCarsCatalog/Web/MainImage/DTX49_c_17_003.png",
+    "id": 3,
+    "marca": "Mercedes-Benz",
+    "modelo": "Sedan",
+    "precio": 2000
+  },
+  {
+    "color": "Blanco",
+    "foto": "https://media.mattel.com/root/HWCarsCatalog/Web/MainImage/DTX49_c_17_003.png",
+    "id": 6,
+    "marca": "Mercedes-Benz",
+    "modelo": "Sedan",
+    "precio": 2000
+  }
+]
 ```
 
 </details>
@@ -174,11 +184,15 @@ GET udem-autos-api.herokuapp.com/inventario/?desde=2021-11-20&hasta=2021-11-22
 <summary>Ejemplo: Realizar una Reserva</summary>
 
 ```http
-GET udem-autos-api.herokuapp.com/reserva
+GET http://localhost:5000/reserva/?desde=2023-11-20&hasta=2023-11-22&id1=2&id2=4&id3=5&cuenta=4255555567&pin=123
 ```
 
 ```
-{lol}
+{
+  "message": "¡Reserva exitosa!",
+  "precio": 41814,
+  "reserva": 39
+}
 ```
 
 </details>
