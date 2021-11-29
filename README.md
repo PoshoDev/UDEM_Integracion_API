@@ -165,8 +165,8 @@ GET udem-autos-api.herokuapp.com/inventario/?desde=2021-11-20&hasta=2021-11-22
 | id1                | El ID del primer automóvil que se desea reservar.            |
 | id2 *(opcional)*   | El ID del segundo automóvil que se desea reservar.           |
 | id3 *(opcional)*   | El ID del tercer automóvil que se desea reservar.            |
-| desde *(opcional)* | La fecha desde la cual se va a reservar.                     |
-| hasta *(opcional)* | La fecha hasta la cual se va a reservar.                     |
+| desde              | La fecha desde la cual se va a reservar.                     |
+| hasta              | La fecha hasta la cual se va a reservar.                     |
 | cuenta             | La cuenta de banco del usuario que va a realizar la transacción. |
 | pin                | La contraseña de la cuenta de banco que se va a usar.        |
 
