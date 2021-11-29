@@ -4,8 +4,10 @@ from functools import wraps
 import datetime as dt
 import loaf
 import json
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 loaf.bake(
 	host = "dcrhg4kh56j13bnu.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
